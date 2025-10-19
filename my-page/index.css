@@ -1,0 +1,130 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.head{
+    background-image: url(images/developer.png), url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dark-2{
+    columns: #474747;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 35px;
+    padding-left: 220px;
+}
+.text{
+    color: rgb(237, 131, 9);
+}
+nav ul li {
+    list-style: none;
+}
+a { 
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 50px;
+}
+.section-titl{
+    font-size: 32px;
+    font-weight: bold;
+    color: #181818;
+
+}
+.section-des{
+    font-size: 18px;
+    color: #757575;
+    
+
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+.btn{
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    padding: 18px 28px;
+    color:white;
+    border: none;
+    font-size: 20px;
+
+}
+.banner-profile{
+    width: 400px;
+    margin-right: 38;
+}        
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+.banner-xx{
+    max-width: 360px;
+    margin-left: 220px;
+}
+.sec-bg{
+    background-color: #fff8f3;
+}
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 100px;
+
+}
+main{
+    max-width: 1140px;
+    margin: o auto;
+    margin-left: 150px;
+    align-items: center;
+}
+.aaa{
+    display: flex;
+    justify-content: space-around;
+
+}
+.item-des{
+    font-weight: 600;
+}
+.skill-cont{
+    display: flex;
+    margin-top: 150px;
+    margin-bottom: 130px;
+    
+}
+.text-align{
+    text-align: justify;
+}
+.skill{
+    padding-left: 30px;
+    box-shadow: 0px 6px 50px rgb(225, 209, 209);
+    margin-left: 50px;
+    padding-top: 20px;
+    border-radius: 5px;
+    
+}
+.resume-cont{
+    display: flex;
+    gap: 24PX;
+    
+}
+.resume-column{
+    margin-left: 30px;
+}
+.section-title{
+    text-align: center;
+}
+.zzz{
+    align-items: center;
+    margin-left: 45%;
+}
